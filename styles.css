@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #6c63ff;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero .btn {
+    background-color: white;
+    color: #6c63ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature-item {
+    text-align: center;
+    width: 30%;
+}
+
+.feature-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.feature-item h3 {
+    margin-top: 10px;
+}
+
+/* About Page */
+.about {
+    text-align: left;
+}
+
+/* Contact Page */
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-top: 10px;
+}
+
+.contact form input, 
+.contact form textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}

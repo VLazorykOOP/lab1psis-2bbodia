@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demonstration of the website in a container (docker)</title>
+    <title>Home | Static Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1> Run site !</h1>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h1>Welcome to Our Amazing Website</h1>
+                <p>Delivering quality content and services to our users every day.</p>
+                <a href="about.html" class="btn">Learn More</a>
+            </section>
+            
+            <section class="features">
+                <h2>Our Key Features</h2>
+                <div class="feature-item">
+                    <h3>High Quality</h3>
+                    <p>We ensure that every product we deliver meets the highest standards of quality.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Reliability</h3>
+                    <p>You can count on us to provide timely and dependable service.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Customer Support</h3>
+                    <p>Our team is always here to help you with any issues or questions you may have.</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Static Website. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
